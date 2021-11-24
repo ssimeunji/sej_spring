@@ -6,11 +6,11 @@ import lombok.Data;
 
 @Data
 public class TraineeDTO {
-	private long tnumber;
-	private String name;
-	private int age;
-	private String phone;
-	private String gender;
-	private Date birth;
-	private String address;
+	private long t_number;
+	private String t_name;
+	private int t_age;
+	private String t_phone;
+	private String t_gender;
+	private Date t_birth;
+	private String t_address;
 }
