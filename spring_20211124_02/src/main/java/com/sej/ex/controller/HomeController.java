@@ -38,7 +38,6 @@ public class HomeController {
 		// TraineeService에 있는 insert메서드 호출하면서 trainee 객체를 넘긴다면
 		ts.insert(trainee);
 		
-
 		return "success";
 	}
 	
